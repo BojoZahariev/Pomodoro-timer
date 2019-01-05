@@ -1,0 +1,1 @@
+A simple Pomodoro timer done with vanilla JS.

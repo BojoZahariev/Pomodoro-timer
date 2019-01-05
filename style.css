@@ -1,0 +1,146 @@
+html {
+  text-align: center;
+  background-color: black;
+}
+
+#container {
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 600px;
+  height: 800px;
+  background-image: url("https://i.ibb.co/7pWmvYg/abstract-1277863-1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+
+#display {
+  margin-top: 10px;
+  font-size: 100px;
+  color: black;
+  font-family: 'Noto Serif', serif;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  outline: none !important;
+  width: 63px;
+  height: 60px;
+  border: none;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#btn1 {
+  background-image: url("https://i.ibb.co/1qPRL8B/play-309042-640.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#btn2 {
+  background-image: url("https://i.ibb.co/S5LQsqL/button-309040-640.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#btn3 {
+  background-image: url("https://i.ibb.co/TDXvTSp/cancel-297783-640.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1.2px solid black;
+}
+
+#btn4,
+#btn5 {
+  margin-top: 10px;
+  width: 53px;
+  height: 51px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  outline: none !important;
+  border: none;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#btn4 {
+  background-image: url("https://i.ibb.co/VwnGwP5/arrows-309036-640.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#btn5 {
+  background-image: url("https://i.ibb.co/LC4kbMN/arrows-309038-640.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#breakDisplay {
+  margin-top: 20px;
+  font-size: 50px;
+  color: black;
+  font-family: 'Noto Serif', serif;
+}
+
+#btn6,
+#btn7 {
+  margin-top: 10px;
+  width: 53px;
+  height: 51px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  outline: none !important;
+  border: none;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#btn6 {
+  background-image: url("https://i.ibb.co/VwnGwP5/arrows-309036-640.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#btn7 {
+  background-image: url("https://i.ibb.co/LC4kbMN/arrows-309038-640.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button:active {
+  background-color: #576574;
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
+
+#mes {
+  margin-top: 100px;
+  margin-bottom: 5px;
+  font-size: 80px;
+  color: green;
+  font-family: 'Domine', serif;
+}
+
+#gif {
+  margin: auto;
+  width: 300px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 400px;
+  }
+}
