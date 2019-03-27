@@ -3,11 +3,14 @@ html {
   background-color: black;
 }
 
+.flex-container {
+  display: flex;
+}
+
 #container {
   margin: auto;
-  margin-top: 30px;
   text-align: center;
-  width: 600px;
+  width: 500px;
   height: 800px;
   background-image: url("https://i.ibb.co/7pWmvYg/abstract-1277863-1280.png");
   background-repeat: no-repeat;
@@ -137,7 +140,6 @@ button:active {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 @media only screen and (max-width: 600px) {
   #container {
